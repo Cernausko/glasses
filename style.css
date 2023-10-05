@@ -1,0 +1,131 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    size: 100%;
+}
+
+header{
+    margin: 35px;
+    display: flex;
+}
+
+.logo{ 
+    justify-content: left;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+}
+
+
+.navi{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-grow: 2;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #000;
+}
+
+ul li{
+    margin: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul li a:last-child{
+    margin-right: 120%;
+}
+
+
+
+#Cart{
+    color: white;
+    border-radius: 15px 5px 15px 15px;
+    background: #2B2B2B;
+    width: 41px;
+    height: 119px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    padding: 8px 20px;
+}
+
+#Menu{
+    color: white;
+    border-radius: 5px 10px 10px 10px;
+    background: #43C7FF;
+    width: 41px;
+    height: 41px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+    padding: 8px 8px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+.kaire{
+    margin-left: 115px;
+    float: left;
+}
+
+.PINK{
+    justify-content: right;
+    color: #000;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.25px;
+}
+
+.EYES{
+
+    color: #969696;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.EYES p{
+    margin-top: 68px;
+}
+
+.SHADES{
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.SHADES p{
+    margin-top: 45px;
+}
+
+.social{
+    margin-top: 100px ;
+    display: flex;
+}
